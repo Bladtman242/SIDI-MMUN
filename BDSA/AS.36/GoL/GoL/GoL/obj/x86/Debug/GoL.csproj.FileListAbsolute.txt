@@ -3,3 +3,4 @@ C:\Users\Storgaard\Documents\GitHub\SIDI-MMUN\BDSA\AS.36\GoL\GoL\GoL\bin\Debug\G
 C:\Users\Storgaard\Documents\GitHub\SIDI-MMUN\BDSA\AS.36\GoL\GoL\GoL\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Storgaard\Documents\GitHub\SIDI-MMUN\BDSA\AS.36\GoL\GoL\GoL\obj\x86\Debug\GoL.exe
 C:\Users\Storgaard\Documents\GitHub\SIDI-MMUN\BDSA\AS.36\GoL\GoL\GoL\obj\x86\Debug\GoL.pdb
+C:\Users\Storgaard\Documents\GitHub\SIDI-MMUN\BDSA\AS.36\GoL\GoL\GoL\bin\Debug\GameOfLifeViewer.dll

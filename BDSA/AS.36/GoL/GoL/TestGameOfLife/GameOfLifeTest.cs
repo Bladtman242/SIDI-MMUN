@@ -1,6 +1,7 @@
 ﻿using GoL;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using BDSA12;
 
 namespace TestGameOfLife
 {

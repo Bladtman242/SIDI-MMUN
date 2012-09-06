@@ -7,3 +7,4 @@ C:\Users\Storgaard\Documents\GitHub\SIDI-MMUN\BDSA\AS.36\GoL\GoL\TestGameOfLife\
 C:\Users\Storgaard\Documents\GitHub\SIDI-MMUN\BDSA\AS.36\GoL\GoL\TestGameOfLife\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Storgaard\Documents\GitHub\SIDI-MMUN\BDSA\AS.36\GoL\GoL\TestGameOfLife\obj\Debug\TestGameOfLife.dll
 C:\Users\Storgaard\Documents\GitHub\SIDI-MMUN\BDSA\AS.36\GoL\GoL\TestGameOfLife\obj\Debug\TestGameOfLife.pdb
+C:\Users\Storgaard\Documents\GitHub\SIDI-MMUN\BDSA\AS.36\GoL\GoL\TestGameOfLife\bin\Debug\GameOfLifeViewer.dll

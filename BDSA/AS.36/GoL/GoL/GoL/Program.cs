@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using BDSA12;
 
 namespace GoL
 {
-    class GameOfLife
+    class GameOfLife : IGameOfLife
     {
         private int?[,] Grid;
         private Random random = new Random(); // Avoid instantiating a LOT of times
@@ -14,6 +15,16 @@ namespace GoL
         private static readonly int? Zombie = null;
         private static readonly int? Dead = 0;
         private static readonly int? Alive = 1;
+
+        public uint Size
+        {
+            get { return (uint) Grid.GetLength(0); }
+        }
+
+        public int? this[uint col, uint row]
+        {
+            get { return Grid[col, row]; }
+        }
 
         /// <summary>
         /// Create a new Game of Life with a size
@@ -108,11 +119,6 @@ namespace GoL
                 }
             }
 
-            Console.WriteLine(x + ", " + y + ": " + Grid[x, y]);
-            Console.WriteLine("Zombies: " + zombieN);
-            Console.WriteLine("Dead: " + deadN);
-            Console.WriteLine("Alive: " + liveN);
-
             int? state = Grid[x, y];
             if (Grid[x, y] == Alive && liveN <= 1) state = Dead;                                // 1. A live cell with 1 or less neighbors dies
             if (Grid[x, y] == Alive && liveN >= 2 && liveN <= 3) state = Alive;                 // 2. A live cell with 2 or 3 neighbors survives
@@ -192,8 +198,11 @@ namespace GoL
 
         static void Main(string[] args)
         {
-            GameOfLife gol = new GameOfLife(5);
-            gol.Run();
+            // Create new game with width/height 25
+            GameOfLife gol = new GameOfLife(25);
+
+            // Create GUI of current game and play!
+            GOFRunner.Run(gol);
         }
     }
 
