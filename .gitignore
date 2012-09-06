@@ -1,2 +1,4 @@
 *.exe
+*.dll
 .DS_STORE
+!BDSA/AS.36/Gol/Gol/Libraries/
