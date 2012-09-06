@@ -15,12 +15,19 @@ namespace GoL
             GenerateState();
 
             ConsoleKeyInfo cki;
-            do
+            while (true)
             {
                 cki = Console.ReadKey();
-                Console.WriteLine();
-                NextDay();
-            } while (cki.Key != ConsoleKey.Q);
+                if (cki.Key == ConsoleKey.Q)
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine();
+                    NextDay();
+                }
+            }
         }
 
         private void GenerateState()
