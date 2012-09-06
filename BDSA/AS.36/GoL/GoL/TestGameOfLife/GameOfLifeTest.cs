@@ -70,21 +70,11 @@ namespace TestGameOfLife
         [TestMethod()]
         public void GameOfLifeConstructorTest()
         {
-            int size = 0; // TODO: Initialize to an appropriate value
+            int size = 5;
             GameOfLife target = new GameOfLife(size);
-            Assert.Inconclusive("TODO: Implement code to verify target");
-        }
-
-        /// <summary>
-        ///A test for ChangeCellState
-        ///</summary>
-        [TestMethod()]
-        [DeploymentItem("GoL.exe")]
-        public void ChangeCellStateTest()
-        {
-            // Private Accessor for ChangeCellState is not found. Please rebuild the containing project or run the Publicize.exe manually.
-            Assert.Inconclusive("Private Accessor for ChangeCellState is not found. Please rebuild the containing " +
-                    "project or run the Publicize.exe manually.");
+            Assert.AreEqual(size, target.GetGrid().GetLength(0), "Dimension 0 is not correct, got " + target.GetGrid().GetLength(0));
+            Assert.AreEqual(size, target.GetGrid().GetLength(1), "Dimension 1 is not correct, got " + target.GetGrid().GetLength(1));
+            Assert.AreEqual(size * size, target.GetGrid().Length, "Cell count is not correct, got " + target.GetGrid().Length); // No extra dimensions, please!
         }
 
         /// <summary>
@@ -93,91 +83,190 @@ namespace TestGameOfLife
         [TestMethod()]
         public void ChangeCellStatesTest()
         {
-            int size = 0; // TODO: Initialize to an appropriate value
-            GameOfLife target = new GameOfLife(size); // TODO: Initialize to an appropriate value
-            CellUpdate[] cellUpdates = null; // TODO: Initialize to an appropriate value
+            int size = 5;
+            GameOfLife target = new GameOfLife(size);
+            CellUpdate[] cellUpdates = new CellUpdate[size * size];
+            int c = 0;
+            for (int i = 0; i < size; i++)
+            {
+                for (int j = 0; j < size; j++)
+                {
+                    if (c < 5)
+                    {
+                        cellUpdates[c] = new CellUpdate(i, j, 1);
+                    }
+                    else if (c < 15)
+                    {
+                        cellUpdates[c] = new CellUpdate(i, j, 0);
+                    }
+                    else
+                    {
+                        cellUpdates[c] = new CellUpdate(i, j, null);
+                    }
+                    c++;
+                }
+            }
             target.ChangeCellStates(cellUpdates);
-            Assert.Inconclusive("A method that does not return a value cannot be verified.");
+
+            int?[,] Grid = target.GetGrid();
+            c = 0; // Reset count
+            for (int i = 0; i < size; i++)
+            {
+                for (int j = 0; j < size; j++)
+                {
+                    if (c < 5)
+                        Assert.AreEqual(1, Grid[i, j], "Failed at " + i + "," + j);
+                    else if (c < 15)
+                        Assert.AreEqual(0, Grid[i, j], "Failed at " + i + "," + j);
+                    else
+                        Assert.AreEqual(null, Grid[i, j], "Failed at " + i + "," + j);
+                    c++;
+                }
+            }
         }
 
         /// <summary>
-        ///A test for GenerateState
+        ///A test for Game Logic All Alive
         ///</summary>
         [TestMethod()]
-        [DeploymentItem("GoL.exe")]
-        public void GenerateStateTest()
+        public void GameLogicAllAliveTest()
         {
-            PrivateObject param0 = null; // TODO: Initialize to an appropriate value
-            GameOfLife_Accessor target = new GameOfLife_Accessor(param0); // TODO: Initialize to an appropriate value
-            target.GenerateState();
-            Assert.Inconclusive("A method that does not return a value cannot be verified.");
+            int size = 5;
+            GameOfLife target = new GameOfLife(size);
+            CellUpdate[] cellUpdates = new CellUpdate[size * size];
+            int c = 0;
+            for (int i = 0; i < size; i++)
+            {
+                for (int j = 0; j < size; j++)
+                {
+                    cellUpdates[c] = new CellUpdate(i, j, 1);
+                    c++;
+                }
+            }
+            target.ChangeCellStates(cellUpdates);
+
+            int?[,] Grid = target.GetGrid();
+            c = 0; // Reset count
+            for (int i = 0; i < size; i++)
+            {
+                for (int j = 0; j < size; j++)
+                {
+                    Assert.AreEqual(1, Grid[i, j], "Failed at " + i + "," + j);
+                    c++;
+                }
+            }
         }
 
         /// <summary>
-        ///A test for GetNewCellState
+        ///A test for Game Logic All Dead
         ///</summary>
         [TestMethod()]
-        [DeploymentItem("GoL.exe")]
-        public void GetNewCellStateTest()
+        public void GameLogicAllDeadTest()
         {
-            PrivateObject param0 = null; // TODO: Initialize to an appropriate value
-            GameOfLife_Accessor target = new GameOfLife_Accessor(param0); // TODO: Initialize to an appropriate value
-            int x = 0; // TODO: Initialize to an appropriate value
-            int y = 0; // TODO: Initialize to an appropriate value
-            CellUpdate_Accessor expected = null; // TODO: Initialize to an appropriate value
-            CellUpdate_Accessor actual;
-            actual = target.GetNewCellState(x, y);
-            Assert.AreEqual(expected, actual);
-            Assert.Inconclusive("Verify the correctness of this test method.");
+            int size = 5;
+            GameOfLife target = new GameOfLife(size);
+            CellUpdate[] cellUpdates = new CellUpdate[size * size];
+            int c = 0;
+            for (int i = 0; i < size; i++)
+            {
+                for (int j = 0; j < size; j++)
+                {
+                    cellUpdates[c] = new CellUpdate(i, j, 0);
+                    c++;
+                }
+            }
+            target.ChangeCellStates(cellUpdates);
+
+            int?[,] Grid = target.GetGrid();
+            c = 0; // Reset count
+            for (int i = 0; i < size; i++)
+            {
+                for (int j = 0; j < size; j++)
+                {
+                    Assert.AreEqual(0, Grid[i, j], "Failed at " + i + "," + j);
+                    c++;
+                }
+            }
         }
 
         /// <summary>
-        ///A test for Main
+        ///A test for Game Logic All Zombie
         ///</summary>
         [TestMethod()]
-        [DeploymentItem("GoL.exe")]
-        public void MainTest()
+        public void GameLogicAllZombieTest()
         {
-            string[] args = null; // TODO: Initialize to an appropriate value
-            GameOfLife_Accessor.Main(args);
-            Assert.Inconclusive("A method that does not return a value cannot be verified.");
+            int size = 5;
+            GameOfLife target = new GameOfLife(size);
+            CellUpdate[] cellUpdates = new CellUpdate[size * size];
+            int c = 0;
+            for (int i = 0; i < size; i++)
+            {
+                for (int j = 0; j < size; j++)
+                {
+                    cellUpdates[c] = new CellUpdate(i, j, null);
+                    c++;
+                }
+            }
+            target.ChangeCellStates(cellUpdates);
+
+            int?[,] Grid = target.GetGrid();
+            c = 0; // Reset count
+            for (int i = 0; i < size; i++)
+            {
+                for (int j = 0; j < size; j++)
+                {
+                    Assert.AreEqual(null, Grid[i, j], "Failed at " + i + "," + j);
+                    c++;
+                }
+            }
         }
 
         /// <summary>
-        ///A test for NextDay
+        ///A test for Game Logic
         ///</summary>
         [TestMethod()]
-        [DeploymentItem("GoL.exe")]
-        public void NextDayTest()
+        public void GameLogicTest()
         {
-            PrivateObject param0 = null; // TODO: Initialize to an appropriate value
-            GameOfLife_Accessor target = new GameOfLife_Accessor(param0); // TODO: Initialize to an appropriate value
+            int size = 5;
+            GameOfLife target = new GameOfLife(size);
+            CellUpdate[] cellUpdates = new CellUpdate[size * size];
+            int?[] states = {1, 1, 0, 1, 0, null, 0, 1, 1, 1, null, 1, null, 0, null, 1, 1, null, 1, 1, null, null, 0, null, 1};
+            int c = 0;
+            for (int i = 0; i < size; i++)
+            {
+                for (int j = 0; j < size; j++)
+                {
+                    cellUpdates[c] = new CellUpdate(i, j, states[c]);
+                    c++;
+                }
+            }
+            target.ChangeCellStates(cellUpdates);
             target.NextDay();
-            Assert.Inconclusive("A method that does not return a value cannot be verified.");
-        }
 
-        /// <summary>
-        ///A test for PrintGrid
-        ///</summary>
-        [TestMethod()]
-        public void PrintGridTest()
-        {
-            int size = 0; // TODO: Initialize to an appropriate value
-            GameOfLife target = new GameOfLife(size); // TODO: Initialize to an appropriate value
-            target.PrintGrid();
-            Assert.Inconclusive("A method that does not return a value cannot be verified.");
-        }
-
-        /// <summary>
-        ///A test for Run
-        ///</summary>
-        [TestMethod()]
-        public void RunTest()
-        {
-            int size = 0; // TODO: Initialize to an appropriate value
-            GameOfLife target = new GameOfLife(size); // TODO: Initialize to an appropriate value
-            target.Run();
-            Assert.Inconclusive("A method that does not return a value cannot be verified.");
+            int?[,] Grid = target.GetGrid();
+            // 2: Alive or zombie
+            // 3: Dead or zombie
+            int?[] nextDayStates = { 3, 3, 0, 1, 1, null, 0, 3, 2, 2, null, 2, null, 0, null, 2, 2, null, 2, 2, null, null, 0, null, 2 };
+            c = 0; // Reset count
+            for (int i = 0; i < size; i++)
+            {
+                for (int j = 0; j < size; j++)
+                {
+                    if (nextDayStates[c] == 3)
+                    {
+                        Assert.IsTrue(Grid[i, j] == 0 || Grid[i, j] == null, "Failed at " + i + "," + j);
+                    }
+                    else if (nextDayStates[c] == 2)
+                    {
+                        Assert.IsTrue(Grid[i, j] == 1 || Grid[i, j] == null, "Failed at " + i + "," + j);
+                    }
+                    else
+                    {
+                        Assert.AreEqual(nextDayStates[c], Grid[i, j], "Failed at " + i + "," + j);
+                    }
+                    c++;
+                }
+            }
         }
     }
 }

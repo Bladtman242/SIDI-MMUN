@@ -15,8 +15,13 @@ namespace GoL
         private static readonly int? Dead = 0;
         private static readonly int? Alive = 1;
 
+        /// <summary>
+        /// Create a new Game of Life with a size
+        /// </summary>
+        /// <param name="size"></param>
         public GameOfLife(int size)
         {
+            if (size < 0) size *= -1;
             Grid = new int?[size, size];
             GenerateState();
         }
@@ -56,11 +61,12 @@ namespace GoL
                 else
                 {
                     NextDay();
+                    PrintGrid();
                 }
             }
         }
 
-        private void NextDay()
+        public void NextDay()
         {
             List<CellUpdate> cellUpdateList = new List<CellUpdate>();
 
@@ -75,7 +81,6 @@ namespace GoL
 
             CellUpdate[] cellUpdates = cellUpdateList.ToArray();
             ChangeCellStates(cellUpdates);
-            PrintGrid();
         }
 
         /// <summary>
@@ -93,15 +98,20 @@ namespace GoL
             int liveN = 0;
             for (int i = x - 1; i <= x + 1; i++)
             {
-                if (i < 0 || i >= size) break; // If out of bounds, break
+                if (i < 0 || i >= size) continue; // If out of bounds, break
                 for (int j = y - 1; j <= y + 1; j++)
                 {
-                    if (j < 0 || j >= size || (i == x && j == y)) break; // If out of bounds or self, break
+                    if (j < 0 || j >= size || (i == x && j == y)) continue; // If out of bounds or self, break
                     if (Grid[i, j] == Zombie) ++zombieN;
                     if (Grid[i, j] == Dead) ++deadN;
                     if (Grid[i, j] == Alive) ++liveN;
                 }
             }
+
+            Console.WriteLine(x + ", " + y + ": " + Grid[x, y]);
+            Console.WriteLine("Zombies: " + zombieN);
+            Console.WriteLine("Dead: " + deadN);
+            Console.WriteLine("Alive: " + liveN);
 
             int? state = Grid[x, y];
             if (Grid[x, y] == Alive && liveN <= 1) state = Dead;                                // 1. A live cell with 1 or less neighbors dies
@@ -145,6 +155,15 @@ namespace GoL
             {
                 Grid[cellUpdate.x, cellUpdate.y] = cellUpdate.state;
             }
+        }
+
+        /// <summary>
+        /// Return current cell grid
+        /// </summary>
+        /// <returns>Current grid</returns>
+        public int?[,] GetGrid()
+        {
+            return Grid;
         }
 
         /// <summary>

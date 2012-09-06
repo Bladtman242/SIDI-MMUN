@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cf118597-dc80-4c4f-a815-76d6ced14a72" name="Storgaard@STORGAARD-PC 2012-09-06 15:31:06" runUser="Storgaard-Pc\Storgaard" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="6696d6a2-e282-42e7-b4d6-155d970f221e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Storgaard_STORGAARD-PC 2012-09-06 15_31_06">
+      <DeploymentItem filename="C:\Users\Storgaard\Documents\GitHub\SIDI-MMUN\BDSA\AS.36\GoL\GoL\GoL\bin\Debug\GoL.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-06T15:31:06.4192634+02:00" queuing="2012-09-06T15:31:06.4282639+02:00" start="2012-09-06T15:31:06.4402646+02:00" finish="2012-09-06T15:31:06.7172804+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GameLogicAllZombieTest" storage="c:\users\storgaard\documents\github\sidi-mmun\bdsa\as.36\gol\gol\testgameoflife\bin\debug\testgameoflife.dll" id="4154cb9d-510d-4114-2e73-514f50233c76">
+      <Execution id="8367a11e-8039-4c2c-a06f-6557bb2304c2" />
+      <TestMethod codeBase="C:/Users/Storgaard/Documents/GitHub/SIDI-MMUN/BDSA/AS.36/GoL/GoL/TestGameOfLife/bin/Debug/TestGameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestGameOfLife.GameOfLifeTest, TestGameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GameLogicAllZombieTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4154cb9d-510d-4114-2e73-514f50233c76" executionId="8367a11e-8039-4c2c-a06f-6557bb2304c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8367a11e-8039-4c2c-a06f-6557bb2304c2" testId="4154cb9d-510d-4114-2e73-514f50233c76" testName="GameLogicAllZombieTest" computerName="STORGAARD-PC" duration="00:00:00.0381517" startTime="2012-09-06T15:31:06.4412647+02:00" endTime="2012-09-06T15:31:06.6992794+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8367a11e-8039-4c2c-a06f-6557bb2304c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;(null)&gt;. Did not get Alive as expected, got  at 0,0</Message>
+          <StackTrace>   at TestGameOfLife.GameOfLifeTest.GameLogicAllZombieTest() in C:\Users\Storgaard\Documents\GitHub\SIDI-MMUN\BDSA\AS.36\GoL\GoL\TestGameOfLife\GameOfLifeTest.cs:line 218
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d721edb1-ec5a-4abc-a676-ac152fe28ad8" name="Storgaard@STORGAARD-PC 2012-09-06 15:16:59" runUser="Storgaard-Pc\Storgaard" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="6696d6a2-e282-42e7-b4d6-155d970f221e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Storgaard_STORGAARD-PC 2012-09-06 15_16_59">
+      <DeploymentItem filename="C:\Users\Storgaard\Documents\GitHub\SIDI-MMUN\BDSA\AS.36\GoL\GoL\GoL\bin\Debug\GoL.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-06T15:16:59.1808041+02:00" queuing="2012-09-06T15:16:59.1898046+02:00" start="2012-09-06T15:16:59.1988052+02:00" finish="2012-09-06T15:16:59.4388189+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ChangeCellStatesTest" storage="c:\users\storgaard\documents\github\sidi-mmun\bdsa\as.36\gol\gol\testgameoflife\bin\debug\testgameoflife.dll" id="28cf5364-152b-3438-cf59-3d76b2f5ab4e">
+      <Execution id="aec663ae-d7f9-4921-8205-6d037a911db4" />
+      <TestMethod codeBase="C:/Users/Storgaard/Documents/GitHub/SIDI-MMUN/BDSA/AS.36/GoL/GoL/TestGameOfLife/bin/Debug/TestGameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestGameOfLife.GameOfLifeTest, TestGameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangeCellStatesTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="28cf5364-152b-3438-cf59-3d76b2f5ab4e" executionId="aec663ae-d7f9-4921-8205-6d037a911db4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="aec663ae-d7f9-4921-8205-6d037a911db4" testId="28cf5364-152b-3438-cf59-3d76b2f5ab4e" testName="ChangeCellStatesTest" computerName="STORGAARD-PC" duration="00:00:00.0375174" startTime="2012-09-06T15:16:59.2018053+02:00" endTime="2012-09-06T15:16:59.4218179+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aec663ae-d7f9-4921-8205-6d037a911db4">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsNull failed. Did not get Zombie as expected, got 1</Message>
+          <StackTrace>   at TestGameOfLife.GameOfLifeTest.ChangeCellStatesTest() in C:\Users\Storgaard\Documents\GitHub\SIDI-MMUN\BDSA\AS.36\GoL\GoL\TestGameOfLife\GameOfLifeTest.cs:line 115
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
