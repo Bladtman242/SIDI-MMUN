@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{CB8FCEE0-B8C2-4A8B-9584-550223F35D69}</ProjectGuid>
+    <ProjectGuid>{8E18CA34-56AB-49AF-90A6-0A134D844814}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GoL</RootNamespace>
-    <AssemblyName>GoL</AssemblyName>
+    <RootNamespace>ListPerformance</RootNamespace>
+    <AssemblyName>ListPerformance</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -34,9 +34,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="GameOfLifeViewer">
-      <HintPath>..\Libraries\GameOfLifeViewer.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

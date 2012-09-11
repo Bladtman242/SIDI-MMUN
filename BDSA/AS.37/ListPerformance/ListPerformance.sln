@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListPerformance", "ListPerformance\ListPerformance.csproj", "{8E18CA34-56AB-49AF-90A6-0A134D844814}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E18CA34-56AB-49AF-90A6-0A134D844814}.Debug|x86.ActiveCfg = Debug|x86
+		{8E18CA34-56AB-49AF-90A6-0A134D844814}.Debug|x86.Build.0 = Debug|x86
+		{8E18CA34-56AB-49AF-90A6-0A134D844814}.Release|x86.ActiveCfg = Release|x86
+		{8E18CA34-56AB-49AF-90A6-0A134D844814}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

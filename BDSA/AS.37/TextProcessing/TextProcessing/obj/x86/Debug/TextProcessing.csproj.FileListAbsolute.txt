@@ -1,0 +1,5 @@
+C:\Users\Storgaard\Documents\GitHub\SIDI-MMUN\BDSA\AS.37\TextProcessing\TextProcessing\bin\Debug\TextProcessing.exe
+C:\Users\Storgaard\Documents\GitHub\SIDI-MMUN\BDSA\AS.37\TextProcessing\TextProcessing\bin\Debug\TextProcessing.pdb
+C:\Users\Storgaard\Documents\GitHub\SIDI-MMUN\BDSA\AS.37\TextProcessing\TextProcessing\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Storgaard\Documents\GitHub\SIDI-MMUN\BDSA\AS.37\TextProcessing\TextProcessing\obj\x86\Debug\TextProcessing.exe
+C:\Users\Storgaard\Documents\GitHub\SIDI-MMUN\BDSA\AS.37\TextProcessing\TextProcessing\obj\x86\Debug\TextProcessing.pdb
