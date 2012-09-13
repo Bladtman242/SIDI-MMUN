@@ -1,0 +1,53 @@
+We have performed two tests on the C# classes List, Dictionary, and SortedDictionary.
+Both tests ran on collections containing (or building towards) N=10.000.000 integers.
+
+###################################Definition########################################
+
+Test 1:
+We build the three datastructures independently, inserting integers 0 to N,
+meassuring the time from the beginning of the experiment in steps of 1M
+insertions.
+The graph depicted in graph.png shows a plot of the results.
+
+Test 2: 
+Before the experiment, we build an array of the numbers 0 to N and shuffled it,
+and added the N integers to each of the three collections, plus a sorted List.
+We then ran 10.000 contains operations on the three original collections and
+10.000 binary searches on the sorted List.
+contain operations/searches where done for integers 0 to 10.000, which would
+give sorted collections an advantage in linnear searces, but under the
+assumption that the sorted collections use binary search, there shouldn't be any
+diference.
+
+###################################Results###########################################
+
+The first test gave te expected results: List is the fastest, followed by
+Dictionary, with miles upto SortedDictionary.
+
+The second test gave somewhat unexpected results.
+The two sorted collections performed almost equally, with the List being
+slightly faster, and were the fastest collections by far.
+Unexpectedly, the (unsorted) List performed significantly better than the
+(unsorted) Dictionary.
+We would expect equal performance as they both probably do linnear search.
+Our guess is that the Dictionary suffers more from the memory fragmentation
+caused by adding the elements in lockstep, and that they might have been mor
+alike if N had been passed to the collections at instantiation.
+
+###################################Conclussion#######################################
+
+Appart from the contains operations on List vs Dictionary, the collections act
+pretty much as expected.
+The main takeaway might be that, interrestingly, with a sort time of ~1246.5621
+ms. Linnear search will be more effective than sorting and searching, as long as
+you do less than ~50 consecutive searches.
+
+###################################Sources of error##################################
+
+As a more generel source of error, the time of the modulo function (and the
+print outs when it results in 0) are included in the timings.
+With these tests it probably doesn't matter, but if the modulo and print
+operations become to slow compared to operations being tested, they could become
+a leading figure in terms of the timings and even out the differences between
+the collections.
+
