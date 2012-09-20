@@ -1,0 +1,5 @@
+c:\users\storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\bin\Debug\Benchmark.exe
+c:\users\storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\bin\Debug\Benchmark.pdb
+c:\users\storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\obj\x86\Debug\Benchmark.exe
+c:\users\storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\obj\x86\Debug\Benchmark.pdb
