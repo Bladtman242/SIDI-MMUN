@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 namespace Benchmark {
-    class Logger {
+    public class Logger {
         private BenchmarkSystem System;
 
         /// <summary>
@@ -20,22 +20,47 @@ namespace Benchmark {
             System.Failed += new EventHandler(OnJobFailed);
         }
 
+        /// <summary>
+        /// Log a job submission.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void OnJobSubmitted(object sender, EventArgs e) {
             Console.WriteLine("Job submitted.");
         }
 
+        /// <summary>
+        /// Log a job cancellation.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void OnJobCancelled(object sender, EventArgs e) {
             Console.WriteLine("Job cancelled.");
         }
 
+        /// <summary>
+        /// Log a job running.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void OnJobRunning(object sender, EventArgs e) {
             Console.WriteLine("Job running.");
         }
 
+        /// <summary>
+        /// Log a job termination.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void OnJobTerminated(object sender, EventArgs e) {
             Console.WriteLine("Job terminated.");
         }
 
+        /// <summary>
+        /// Log a job failure.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void OnJobFailed(object sender, EventArgs e) {
             Console.WriteLine("Job failed.");
         }

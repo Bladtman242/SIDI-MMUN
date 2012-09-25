@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 namespace Benchmark {
-    class Scheduler {
+    public class Scheduler {
         private Queue<Job> shortQ = new Queue<Job>();
         private Queue<Job> longQ = new Queue<Job>();
         private Queue<Job> veryLongQ = new Queue<Job>();

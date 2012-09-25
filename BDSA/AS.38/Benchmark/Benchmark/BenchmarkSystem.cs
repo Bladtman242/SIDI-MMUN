@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 namespace Benchmark {
-    class BenchmarkSystem {
+    public class BenchmarkSystem {
         private Scheduler scheduler = new Scheduler();
         private List<Job> running = new List<Job>();
 
@@ -83,6 +83,14 @@ namespace Benchmark {
                 job.State = State.Terminated;
                 JobTerminated(EventArgs.Empty);
             }
+        }
+
+        /// <summary>
+        /// Get scheduler (only for testing purposes)
+        /// </summary>
+        /// <returns>Scheduler object</returns>
+        public Scheduler GetScheduler() {
+            return scheduler;
         }
 
         static void Main(string[] args) {
