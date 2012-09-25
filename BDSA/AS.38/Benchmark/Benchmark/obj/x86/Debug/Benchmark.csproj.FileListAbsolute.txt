@@ -3,3 +3,8 @@ c:\users\storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\bin
 c:\users\storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\obj\x86\Debug\ResolveAssemblyReference.cache
 c:\users\storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\obj\x86\Debug\Benchmark.exe
 c:\users\storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\obj\x86\Debug\Benchmark.pdb
+C:\Users\Mex\Dropbox\Softwareudvikling\Common\GIT\SIDI-MMUN\BDSA\AS.38\Benchmark\Benchmark\obj\x86\Debug\Benchmark.pdb
+C:\Users\Mex\Dropbox\Softwareudvikling\Common\GIT\SIDI-MMUN\BDSA\AS.38\Benchmark\Benchmark\bin\Debug\Benchmark.exe
+C:\Users\Mex\Dropbox\Softwareudvikling\Common\GIT\SIDI-MMUN\BDSA\AS.38\Benchmark\Benchmark\bin\Debug\Benchmark.pdb
+C:\Users\Mex\Dropbox\Softwareudvikling\Common\GIT\SIDI-MMUN\BDSA\AS.38\Benchmark\Benchmark\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Mex\Dropbox\Softwareudvikling\Common\GIT\SIDI-MMUN\BDSA\AS.38\Benchmark\Benchmark\obj\x86\Debug\Benchmark.exe
