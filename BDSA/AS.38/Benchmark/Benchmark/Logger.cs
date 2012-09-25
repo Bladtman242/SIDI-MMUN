@@ -7,6 +7,10 @@ namespace Benchmark {
     class Logger {
         private BenchmarkSystem System;
 
+        /// <summary>
+        /// Add event handlers for each state and assign them to methods in this class.
+        /// </summary>
+        /// <param name="system">BenchmarkSystem object</param>
         public Logger(BenchmarkSystem system) {
             System = system;
             System.Submitted += new EventHandler(OnJobSubmitted);

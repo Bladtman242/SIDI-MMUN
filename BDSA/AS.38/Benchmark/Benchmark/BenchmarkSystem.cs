@@ -34,18 +34,29 @@ namespace Benchmark {
                 Failed(this, e);
         }
 
+        /// <summary>
+        /// Add a job to scheduler, change state of job and trigger event.
+        /// </summary>
+        /// <param name="job"></param>
         public void Submit(Job job) {
             scheduler.AddJob(job);
             job.State = State.Submitted;
             JobSubmitted(EventArgs.Empty);
         }
 
+        /// <summary>
+        /// Remove a job from scheduler, change state of job and trigger event.
+        /// </summary>
+        /// <param name="job">Job object</param>
         public void Cancel(Job job) {
             scheduler.RemoveJob(job);
             job.State = State.Cancelled;
             JobCancelled(EventArgs.Empty);
         }
 
+        /// <summary>
+        /// Print a status including running and queued jobs.
+        /// </summary>
         public void Status() {
             Console.WriteLine("Running jobs:");
 
@@ -57,6 +68,9 @@ namespace Benchmark {
             }
         }
 
+        /// <summary>
+        /// Execute all jobs in the scheduler.
+        /// </summary>
         public void ExecuteAll() {
             while (scheduler.HasJobs()) {
                 Job job = scheduler.PopJob();

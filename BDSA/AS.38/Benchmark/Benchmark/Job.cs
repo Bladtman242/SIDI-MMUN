@@ -13,6 +13,13 @@ namespace Benchmark {
         internal Owner Owner;
         internal DateTime Timestamp;
 
+        /// <summary>
+        /// Create a job.
+        /// </summary>
+        /// <param name="process">Method to be processed</param>
+        /// <param name="cpus">int cpus (1-6)</param>
+        /// <param name="expRuntime">int expected runtime (in minutes)</param>
+        /// <param name="owner">Owner owner of the job</param>
         internal Job(Func<string[], int> process, int cpus, int expRuntime, Owner owner) {
             this.process = process;
             if (cpus < 7 && cpus > 0) {
