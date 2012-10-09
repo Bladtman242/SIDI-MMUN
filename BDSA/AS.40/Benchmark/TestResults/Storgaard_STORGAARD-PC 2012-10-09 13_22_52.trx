@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8c5dc9fd-7e70-4988-8be8-194e2da3f91c" name="Storgaard@STORGAARD-PC 2012-10-09 13:22:52" runUser="Storgaard-Pc\Storgaard" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="a6158032-52c6-474d-b2e6-9b7cfd97360f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Storgaard_STORGAARD-PC 2012-10-09 13_22_52">
+      <DeploymentItem filename="C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\bin\Debug\Benchmark.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-09T13:22:52.1864776+02:00" queuing="2012-10-09T13:22:52.2014784+02:00" start="2012-10-09T13:22:52.2154792+02:00" finish="2012-10-09T13:22:52.7645106+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="10" executed="10" passed="10" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestRemoveJob" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="75ac6a0d-f1a6-2b4f-2070-9f01ded38f1b">
+      <Execution id="1639c152-3259-43a7-9c47-a449421441a5" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.SchedulerTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRemoveJob" />
+    </UnitTest>
+    <UnitTest name="TestSelectAllUsers" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="4441aa8b-bd9d-aa93-206c-f3100de87cea">
+      <Execution id="13b3f27f-874a-4114-a6ce-6a9e2f519fc4" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.DatabaseModuleTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSelectAllUsers" />
+    </UnitTest>
+    <UnitTest name="TestSelectAllJobs" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="13a1f6c7-7e3d-0381-50d7-d6ba0d35dcd2">
+      <Execution id="bd4cc5ce-7bb2-4f0d-b12a-710088118fb4" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.DatabaseModuleTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSelectAllJobs" />
+    </UnitTest>
+    <UnitTest name="TestExecuteAll" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="7cb48fb4-619f-7f82-6085-e5841b4b528c">
+      <Execution id="676699aa-f1fe-40c2-8582-a26a27645cf9" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.BenchmarkSystemTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestExecuteAll" />
+    </UnitTest>
+    <UnitTest name="TestJob" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="bf551a33-7359-47a9-ebf2-c3a151930df8">
+      <Execution id="0a107f1f-cf0f-483f-b397-abd990ad23c9" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.JobTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestJob" />
+    </UnitTest>
+    <UnitTest name="TestPopJob" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="9e394168-dfe8-459a-d3ea-9789da9a2096">
+      <Execution id="e72721c6-78f1-4cc5-ad3d-a149f782778e" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.SchedulerTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPopJob" />
+    </UnitTest>
+    <UnitTest name="TestCancel" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="4acb9931-47c3-4a22-bac7-c4d4309e5cf3">
+      <Execution id="2ca02d86-00aa-41fc-8e0e-bd0bdb012c32" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.BenchmarkSystemTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCancel" />
+    </UnitTest>
+    <UnitTest name="TestRemove" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="34a00844-71d7-cc5b-a7b9-72b02a03b3e0">
+      <Execution id="6d5df37d-f504-46e0-97cd-427d4c5baa85" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.QueueExtensionsTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRemove" />
+    </UnitTest>
+    <UnitTest name="TestSubmit" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="51c569f2-c5c7-a7db-6ab7-4c5a13cf904a">
+      <Execution id="8ecf5799-62c4-4a4f-b66a-9216d738107f" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.BenchmarkSystemTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSubmit" />
+    </UnitTest>
+    <UnitTest name="TestAddJob" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="d2ff0831-dd7b-3ea1-ba81-650fd9435b59">
+      <Execution id="3bf42bcc-6e3b-4b05-911c-425a3833000d" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.SchedulerTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAddJob" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="13a1f6c7-7e3d-0381-50d7-d6ba0d35dcd2" executionId="bd4cc5ce-7bb2-4f0d-b12a-710088118fb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34a00844-71d7-cc5b-a7b9-72b02a03b3e0" executionId="6d5df37d-f504-46e0-97cd-427d4c5baa85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4441aa8b-bd9d-aa93-206c-f3100de87cea" executionId="13b3f27f-874a-4114-a6ce-6a9e2f519fc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4acb9931-47c3-4a22-bac7-c4d4309e5cf3" executionId="2ca02d86-00aa-41fc-8e0e-bd0bdb012c32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51c569f2-c5c7-a7db-6ab7-4c5a13cf904a" executionId="8ecf5799-62c4-4a4f-b66a-9216d738107f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75ac6a0d-f1a6-2b4f-2070-9f01ded38f1b" executionId="1639c152-3259-43a7-9c47-a449421441a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7cb48fb4-619f-7f82-6085-e5841b4b528c" executionId="676699aa-f1fe-40c2-8582-a26a27645cf9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e394168-dfe8-459a-d3ea-9789da9a2096" executionId="e72721c6-78f1-4cc5-ad3d-a149f782778e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf551a33-7359-47a9-ebf2-c3a151930df8" executionId="0a107f1f-cf0f-483f-b397-abd990ad23c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2ff0831-dd7b-3ea1-ba81-650fd9435b59" executionId="3bf42bcc-6e3b-4b05-911c-425a3833000d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bd4cc5ce-7bb2-4f0d-b12a-710088118fb4" testId="13a1f6c7-7e3d-0381-50d7-d6ba0d35dcd2" testName="TestSelectAllJobs" computerName="STORGAARD-PC" duration="00:00:00.1013188" startTime="2012-10-09T13:22:52.2184794+02:00" endTime="2012-10-09T13:22:52.5004955+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd4cc5ce-7bb2-4f0d-b12a-710088118fb4">
+    </UnitTestResult>
+    <UnitTestResult executionId="6d5df37d-f504-46e0-97cd-427d4c5baa85" testId="34a00844-71d7-cc5b-a7b9-72b02a03b3e0" testName="TestRemove" computerName="STORGAARD-PC" duration="00:00:00.0011721" startTime="2012-10-09T13:22:52.5034957+02:00" endTime="2012-10-09T13:22:52.5094961+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d5df37d-f504-46e0-97cd-427d4c5baa85">
+    </UnitTestResult>
+    <UnitTestResult executionId="13b3f27f-874a-4114-a6ce-6a9e2f519fc4" testId="4441aa8b-bd9d-aa93-206c-f3100de87cea" testName="TestSelectAllUsers" computerName="STORGAARD-PC" duration="00:00:00.0038188" startTime="2012-10-09T13:22:52.5104961+02:00" endTime="2012-10-09T13:22:52.5184966+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13b3f27f-874a-4114-a6ce-6a9e2f519fc4">
+    </UnitTestResult>
+    <UnitTestResult executionId="2ca02d86-00aa-41fc-8e0e-bd0bdb012c32" testId="4acb9931-47c3-4a22-bac7-c4d4309e5cf3" testName="TestCancel" computerName="STORGAARD-PC" duration="00:00:00.0180972" startTime="2012-10-09T13:22:52.5194966+02:00" endTime="2012-10-09T13:22:52.5414979+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ca02d86-00aa-41fc-8e0e-bd0bdb012c32">
+    </UnitTestResult>
+    <UnitTestResult executionId="8ecf5799-62c4-4a4f-b66a-9216d738107f" testId="51c569f2-c5c7-a7db-6ab7-4c5a13cf904a" testName="TestSubmit" computerName="STORGAARD-PC" duration="00:00:00.0083905" startTime="2012-10-09T13:22:52.5424979+02:00" endTime="2012-10-09T13:22:52.5554987+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ecf5799-62c4-4a4f-b66a-9216d738107f">
+    </UnitTestResult>
+    <UnitTestResult executionId="1639c152-3259-43a7-9c47-a449421441a5" testId="75ac6a0d-f1a6-2b4f-2070-9f01ded38f1b" testName="TestRemoveJob" computerName="STORGAARD-PC" duration="00:00:00.0034375" startTime="2012-10-09T13:22:52.5564987+02:00" endTime="2012-10-09T13:22:52.5644992+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1639c152-3259-43a7-9c47-a449421441a5">
+    </UnitTestResult>
+    <UnitTestResult executionId="676699aa-f1fe-40c2-8582-a26a27645cf9" testId="7cb48fb4-619f-7f82-6085-e5841b4b528c" testName="TestExecuteAll" computerName="STORGAARD-PC" duration="00:00:00.0199368" startTime="2012-10-09T13:22:52.5654993+02:00" endTime="2012-10-09T13:22:52.5895006+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="676699aa-f1fe-40c2-8582-a26a27645cf9">
+      <Output>
+        <StdOut>Job1 is running
+Job2 is running
+Job3 is running
+Job4 is running</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e72721c6-78f1-4cc5-ad3d-a149f782778e" testId="9e394168-dfe8-459a-d3ea-9789da9a2096" testName="TestPopJob" computerName="STORGAARD-PC" duration="00:00:00.0029876" startTime="2012-10-09T13:22:52.5895006+02:00" endTime="2012-10-09T13:22:52.5975011+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e72721c6-78f1-4cc5-ad3d-a149f782778e">
+    </UnitTestResult>
+    <UnitTestResult executionId="0a107f1f-cf0f-483f-b397-abd990ad23c9" testId="bf551a33-7359-47a9-ebf2-c3a151930df8" testName="TestJob" computerName="STORGAARD-PC" duration="00:00:00.0032694" startTime="2012-10-09T13:22:52.5985011+02:00" endTime="2012-10-09T13:22:52.6055015+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a107f1f-cf0f-483f-b397-abd990ad23c9">
+    </UnitTestResult>
+    <UnitTestResult executionId="3bf42bcc-6e3b-4b05-911c-425a3833000d" testId="d2ff0831-dd7b-3ea1-ba81-650fd9435b59" testName="TestAddJob" computerName="STORGAARD-PC" duration="00:00:00.0029002" startTime="2012-10-09T13:22:52.6065016+02:00" endTime="2012-10-09T13:22:52.6135020+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3bf42bcc-6e3b-4b05-911c-425a3833000d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

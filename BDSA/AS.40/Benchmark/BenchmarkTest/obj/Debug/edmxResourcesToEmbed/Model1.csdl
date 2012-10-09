@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Logs" EntityType="Model1.Log" />
+  </EntityContainer>
+  <EntityType Name="Log">
+    <Key>
+      <PropertyRef Name="LogId" />
+    </Key>
+    <Property Name="LogId" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+    <Property Type="String" Name="Action" Nullable="false" />
+    <Property Type="DateTime" Name="Time" Nullable="false" />
+    <Property Type="String" Name="JobName" Nullable="false" />
+    <Property Type="String" Name="OwnerName" Nullable="false" />
+  </EntityType>
+</Schema>

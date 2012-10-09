@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="37fbf698-2413-4823-9bed-d32ca440c944" name="Storgaard@STORGAARD-PC 2012-10-09 13:09:36" runUser="Storgaard-Pc\Storgaard" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="a6158032-52c6-474d-b2e6-9b7cfd97360f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Storgaard_STORGAARD-PC 2012-10-09 13_09_36">
+      <DeploymentItem filename="C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\bin\Debug\Benchmark.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-09T13:09:36.9259913+02:00" queuing="2012-10-09T13:09:36.9519928+02:00" start="2012-10-09T13:09:36.9709939+02:00" finish="2012-10-09T13:09:37.3090132+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" passed="1" error="0" failed="7" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestRemoveJob" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="75ac6a0d-f1a6-2b4f-2070-9f01ded38f1b">
+      <Execution id="2a1a9d51-42ec-4be7-b31f-43ddf55c0227" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.SchedulerTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRemoveJob" />
+    </UnitTest>
+    <UnitTest name="TestJob" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="bf551a33-7359-47a9-ebf2-c3a151930df8">
+      <Execution id="57aee6bd-ebfc-4cc5-8768-bc43953520a2" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.JobTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestJob" />
+    </UnitTest>
+    <UnitTest name="TestRemove" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="34a00844-71d7-cc5b-a7b9-72b02a03b3e0">
+      <Execution id="6d60a423-1772-4605-8178-8be4beb7c7f8" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.QueueExtensionsTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRemove" />
+    </UnitTest>
+    <UnitTest name="TestExecuteAll" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="7cb48fb4-619f-7f82-6085-e5841b4b528c">
+      <Execution id="7989fdf1-71db-4ac5-9465-ac4760fee2e0" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.BenchmarkSystemTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestExecuteAll" />
+    </UnitTest>
+    <UnitTest name="TestPopJob" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="9e394168-dfe8-459a-d3ea-9789da9a2096">
+      <Execution id="7919f6d8-bc10-4bb0-b0ca-d87adf74c090" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.SchedulerTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPopJob" />
+    </UnitTest>
+    <UnitTest name="TestCancel" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="4acb9931-47c3-4a22-bac7-c4d4309e5cf3">
+      <Execution id="7dfc8f05-7ef2-4021-aebb-0b4066ebc866" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.BenchmarkSystemTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCancel" />
+    </UnitTest>
+    <UnitTest name="TestSubmit" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="51c569f2-c5c7-a7db-6ab7-4c5a13cf904a">
+      <Execution id="fe17af84-bea9-420c-85f3-9b05f645e213" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.BenchmarkSystemTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSubmit" />
+    </UnitTest>
+    <UnitTest name="TestAddJob" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="d2ff0831-dd7b-3ea1-ba81-650fd9435b59">
+      <Execution id="3ac68bf5-fbf3-414d-8a99-671ba2f21c86" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.SchedulerTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAddJob" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="34a00844-71d7-cc5b-a7b9-72b02a03b3e0" executionId="6d60a423-1772-4605-8178-8be4beb7c7f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4acb9931-47c3-4a22-bac7-c4d4309e5cf3" executionId="7dfc8f05-7ef2-4021-aebb-0b4066ebc866" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51c569f2-c5c7-a7db-6ab7-4c5a13cf904a" executionId="fe17af84-bea9-420c-85f3-9b05f645e213" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75ac6a0d-f1a6-2b4f-2070-9f01ded38f1b" executionId="2a1a9d51-42ec-4be7-b31f-43ddf55c0227" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7cb48fb4-619f-7f82-6085-e5841b4b528c" executionId="7989fdf1-71db-4ac5-9465-ac4760fee2e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e394168-dfe8-459a-d3ea-9789da9a2096" executionId="7919f6d8-bc10-4bb0-b0ca-d87adf74c090" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf551a33-7359-47a9-ebf2-c3a151930df8" executionId="57aee6bd-ebfc-4cc5-8768-bc43953520a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2ff0831-dd7b-3ea1-ba81-650fd9435b59" executionId="3ac68bf5-fbf3-414d-8a99-671ba2f21c86" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6d60a423-1772-4605-8178-8be4beb7c7f8" testId="34a00844-71d7-cc5b-a7b9-72b02a03b3e0" testName="TestRemove" computerName="STORGAARD-PC" duration="00:00:00.0154783" startTime="2012-10-09T13:09:36.9759941+02:00" endTime="2012-10-09T13:09:37.1810059+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d60a423-1772-4605-8178-8be4beb7c7f8">
+    </UnitTestResult>
+    <UnitTestResult executionId="7dfc8f05-7ef2-4021-aebb-0b4066ebc866" testId="4acb9931-47c3-4a22-bac7-c4d4309e5cf3" testName="TestCancel" computerName="STORGAARD-PC" duration="00:00:00.0378569" startTime="2012-10-09T13:09:37.1820059+02:00" endTime="2012-10-09T13:09:37.2240083+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7dfc8f05-7ef2-4021-aebb-0b4066ebc866">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BenchmarkTest.BenchmarkSystemTest.TestCancel threw exception: 
+System.ArgumentException: The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.</Message>
+          <StackTrace>    at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at Benchmark.Model1Container..ctor() in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\Model1.Designer.cs:line 34
+   at Benchmark.DatabaseModule.LogAction(Job job, String action) in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\DatabaseModule.cs:line 10
+   at Benchmark.BenchmarkSystem.Submit(Job job) in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\BenchmarkSystem.cs:line 18
+   at BenchmarkTest.BenchmarkSystemTest.TestCancel() in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\BenchmarkTest\BenchmarkSystemTest.cs:line 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fe17af84-bea9-420c-85f3-9b05f645e213" testId="51c569f2-c5c7-a7db-6ab7-4c5a13cf904a" testName="TestSubmit" computerName="STORGAARD-PC" duration="00:00:00.0056493" startTime="2012-10-09T13:09:37.2250084+02:00" endTime="2012-10-09T13:09:37.2350090+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe17af84-bea9-420c-85f3-9b05f645e213">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BenchmarkTest.BenchmarkSystemTest.TestSubmit threw exception: 
+System.ArgumentException: The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.</Message>
+          <StackTrace>    at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at Benchmark.Model1Container..ctor() in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\Model1.Designer.cs:line 34
+   at Benchmark.DatabaseModule.LogAction(Job job, String action) in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\DatabaseModule.cs:line 10
+   at Benchmark.BenchmarkSystem.Submit(Job job) in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\BenchmarkSystem.cs:line 18
+   at BenchmarkTest.BenchmarkSystemTest.TestSubmit() in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\BenchmarkTest\BenchmarkSystemTest.cs:line 60
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2a1a9d51-42ec-4be7-b31f-43ddf55c0227" testId="75ac6a0d-f1a6-2b4f-2070-9f01ded38f1b" testName="TestRemoveJob" computerName="STORGAARD-PC" duration="00:00:00.0144043" startTime="2012-10-09T13:09:37.2360090+02:00" endTime="2012-10-09T13:09:37.2550101+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a1a9d51-42ec-4be7-b31f-43ddf55c0227">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;4,40,Michael&gt;. Actual:&lt;job1&gt;. Job1 did not match</Message>
+          <StackTrace>   at BenchmarkTest.SchedulerTest.TestRemoveJob() in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\BenchmarkTest\SchedulerTest.cs:line 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7989fdf1-71db-4ac5-9465-ac4760fee2e0" testId="7cb48fb4-619f-7f82-6085-e5841b4b528c" testName="TestExecuteAll" computerName="STORGAARD-PC" duration="00:00:00.0050698" startTime="2012-10-09T13:09:37.2560102+02:00" endTime="2012-10-09T13:09:37.2650107+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7989fdf1-71db-4ac5-9465-ac4760fee2e0">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BenchmarkTest.BenchmarkSystemTest.TestExecuteAll threw exception: 
+System.ArgumentException: The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.</Message>
+          <StackTrace>    at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at Benchmark.Model1Container..ctor() in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\Model1.Designer.cs:line 34
+   at Benchmark.DatabaseModule.LogAction(Job job, String action) in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\DatabaseModule.cs:line 10
+   at Benchmark.BenchmarkSystem.Submit(Job job) in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\BenchmarkSystem.cs:line 18
+   at BenchmarkTest.BenchmarkSystemTest.TestExecuteAll() in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\BenchmarkTest\BenchmarkSystemTest.cs:line 99
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7919f6d8-bc10-4bb0-b0ca-d87adf74c090" testId="9e394168-dfe8-459a-d3ea-9789da9a2096" testName="TestPopJob" computerName="STORGAARD-PC" duration="00:00:00.0054138" startTime="2012-10-09T13:09:37.2660107+02:00" endTime="2012-10-09T13:09:37.2760113+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7919f6d8-bc10-4bb0-b0ca-d87adf74c090">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;4,40,Michael&gt;. Actual:&lt;job1&gt;. Popped Job did not match</Message>
+          <StackTrace>   at BenchmarkTest.SchedulerTest.TestPopJob() in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\BenchmarkTest\SchedulerTest.cs:line 91
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="57aee6bd-ebfc-4cc5-8768-bc43953520a2" testId="bf551a33-7359-47a9-ebf2-c3a151930df8" testName="TestJob" computerName="STORGAARD-PC" duration="00:00:00.0048295" startTime="2012-10-09T13:09:37.2770114+02:00" endTime="2012-10-09T13:09:37.2860119+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57aee6bd-ebfc-4cc5-8768-bc43953520a2">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;4,40,Michael&gt;. Actual:&lt;job1&gt;. Job did not match</Message>
+          <StackTrace>   at BenchmarkTest.JobTest.TestJob() in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\BenchmarkTest\ScheduledJobTest.cs:line 38
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3ac68bf5-fbf3-414d-8a99-671ba2f21c86" testId="d2ff0831-dd7b-3ea1-ba81-650fd9435b59" testName="TestAddJob" computerName="STORGAARD-PC" duration="00:00:00.0037429" startTime="2012-10-09T13:09:37.2880120+02:00" endTime="2012-10-09T13:09:37.2960124+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ac68bf5-fbf3-414d-8a99-671ba2f21c86">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;3,20,Michael&gt;. Actual:&lt;job2&gt;. Job2 did not match</Message>
+          <StackTrace>   at BenchmarkTest.SchedulerTest.TestAddJob() in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\BenchmarkTest\SchedulerTest.cs:line 56
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

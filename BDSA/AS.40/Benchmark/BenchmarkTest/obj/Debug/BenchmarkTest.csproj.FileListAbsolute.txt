@@ -1,0 +1,8 @@
+C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\BenchmarkTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\BenchmarkTest\bin\Debug\BenchmarkTest.dll
+C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\BenchmarkTest\bin\Debug\BenchmarkTest.pdb
+C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\BenchmarkTest\bin\Debug\Benchmark.exe
+C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\BenchmarkTest\bin\Debug\Benchmark.pdb
+C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\BenchmarkTest\obj\Debug\BenchmarkTest.dll
+C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\BenchmarkTest\obj\Debug\BenchmarkTest.pdb
+C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\BenchmarkTest\bin\Debug\BenchmarkTest.dll.config

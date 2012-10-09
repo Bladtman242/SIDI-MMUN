@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="22704c26-cbc3-476f-b002-3454da8ce951" name="Storgaard@STORGAARD-PC 2012-10-09 13:16:31" runUser="Storgaard-Pc\Storgaard" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="a6158032-52c6-474d-b2e6-9b7cfd97360f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Storgaard_STORGAARD-PC 2012-10-09 13_16_31">
+      <DeploymentItem filename="C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\bin\Debug\Benchmark.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-09T13:16:31.8117214+02:00" queuing="2012-10-09T13:16:31.8407230+02:00" start="2012-10-09T13:16:31.8557239+02:00" finish="2012-10-09T13:16:32.7337741+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" passed="5" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestRemoveJob" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="75ac6a0d-f1a6-2b4f-2070-9f01ded38f1b">
+      <Execution id="2f948437-3c23-4afc-b3f7-8598c928dc80" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.SchedulerTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRemoveJob" />
+    </UnitTest>
+    <UnitTest name="TestJob" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="bf551a33-7359-47a9-ebf2-c3a151930df8">
+      <Execution id="0519fca1-c8ec-4299-8977-765ebe1a52c4" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.JobTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestJob" />
+    </UnitTest>
+    <UnitTest name="TestRemove" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="34a00844-71d7-cc5b-a7b9-72b02a03b3e0">
+      <Execution id="c673f99c-2b4b-4ae3-a916-e81c532aa973" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.QueueExtensionsTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRemove" />
+    </UnitTest>
+    <UnitTest name="TestExecuteAll" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="7cb48fb4-619f-7f82-6085-e5841b4b528c">
+      <Execution id="8fb4cb93-219e-4d96-8cab-6501d62c46b0" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.BenchmarkSystemTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestExecuteAll" />
+    </UnitTest>
+    <UnitTest name="TestPopJob" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="9e394168-dfe8-459a-d3ea-9789da9a2096">
+      <Execution id="e20b3edd-803f-45e7-ab98-c6f73477047f" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.SchedulerTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPopJob" />
+    </UnitTest>
+    <UnitTest name="TestCancel" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="4acb9931-47c3-4a22-bac7-c4d4309e5cf3">
+      <Execution id="da271d78-3687-4412-9e7d-4fadf4baf111" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.BenchmarkSystemTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCancel" />
+    </UnitTest>
+    <UnitTest name="TestSubmit" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="51c569f2-c5c7-a7db-6ab7-4c5a13cf904a">
+      <Execution id="0803d516-b4b9-4d66-a9b6-af627ad39e15" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.BenchmarkSystemTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSubmit" />
+    </UnitTest>
+    <UnitTest name="TestAddJob" storage="c:\users\storgaard\documents\visual studio 2010\projects\benchmark\benchmarktest\bin\debug\benchmarktest.dll" id="d2ff0831-dd7b-3ea1-ba81-650fd9435b59">
+      <Execution id="5e72ea4a-4218-4c63-a51f-7c346d0c17dd" />
+      <TestMethod codeBase="C:/Users/Storgaard/documents/visual studio 2010/Projects/Benchmark/BenchmarkTest/bin/Debug/BenchmarkTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BenchmarkTest.SchedulerTest, BenchmarkTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAddJob" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="34a00844-71d7-cc5b-a7b9-72b02a03b3e0" executionId="c673f99c-2b4b-4ae3-a916-e81c532aa973" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4acb9931-47c3-4a22-bac7-c4d4309e5cf3" executionId="da271d78-3687-4412-9e7d-4fadf4baf111" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51c569f2-c5c7-a7db-6ab7-4c5a13cf904a" executionId="0803d516-b4b9-4d66-a9b6-af627ad39e15" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75ac6a0d-f1a6-2b4f-2070-9f01ded38f1b" executionId="2f948437-3c23-4afc-b3f7-8598c928dc80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7cb48fb4-619f-7f82-6085-e5841b4b528c" executionId="8fb4cb93-219e-4d96-8cab-6501d62c46b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e394168-dfe8-459a-d3ea-9789da9a2096" executionId="e20b3edd-803f-45e7-ab98-c6f73477047f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf551a33-7359-47a9-ebf2-c3a151930df8" executionId="0519fca1-c8ec-4299-8977-765ebe1a52c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2ff0831-dd7b-3ea1-ba81-650fd9435b59" executionId="5e72ea4a-4218-4c63-a51f-7c346d0c17dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c673f99c-2b4b-4ae3-a916-e81c532aa973" testId="34a00844-71d7-cc5b-a7b9-72b02a03b3e0" testName="TestRemove" computerName="STORGAARD-PC" duration="00:00:00.0143693" startTime="2012-10-09T13:16:31.8577240+02:00" endTime="2012-10-09T13:16:32.0537352+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c673f99c-2b4b-4ae3-a916-e81c532aa973">
+    </UnitTestResult>
+    <UnitTestResult executionId="da271d78-3687-4412-9e7d-4fadf4baf111" testId="4acb9931-47c3-4a22-bac7-c4d4309e5cf3" testName="TestCancel" computerName="STORGAARD-PC" duration="00:00:00.0683046" startTime="2012-10-09T13:16:32.0547353+02:00" endTime="2012-10-09T13:16:32.1267394+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da271d78-3687-4412-9e7d-4fadf4baf111">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BenchmarkTest.BenchmarkSystemTest.TestCancel threw exception: 
+System.Data.MetadataException: Schema specified is not valid. Errors: 
+Model1.csdl(3,4) : error 0019: The EntityContainer name must be unique. An EntityContainer with the name 'Model1Container' is already defined.
+Model1.csdl(6,4) : error 0019: Each type name in a schema must be unique. Type name 'Model1.Log' was already defined.</Message>
+          <StackTrace>    at System.Data.Metadata.Edm.EdmItemCollection.LoadItems(IEnumerable`1 xmlReaders, IEnumerable`1 sourceFilePaths, SchemaDataModelOption dataModelOption, DbProviderManifest providerManifest, ItemCollection itemCollection, Boolean throwOnError)
+   at System.Data.Metadata.Edm.EdmItemCollection.Init(IEnumerable`1 xmlReaders, IEnumerable`1 filePaths, Boolean throwOnError)
+   at System.Data.Metadata.Edm.EdmItemCollection..ctor(IEnumerable`1 xmlReaders, IEnumerable`1 filePaths)
+   at System.Data.Metadata.Edm.MetadataCache.EdmMetadataEntry.LoadEdmItemCollection(MetadataArtifactLoader loader)
+   at System.Data.Metadata.Edm.MetadataCache.EdmItemCollectionLoader.LoadItemCollection(EdmMetadataEntry entry)
+   at System.Data.Metadata.Edm.MetadataCache.LoadItemCollection[T](IItemCollectionLoader`1 itemCollectionLoader, T entry)
+   at System.Data.Metadata.Edm.MetadataCache.GetOrCreateEdmItemCollection(String cacheKey, MetadataArtifactLoader loader, Object&amp; entryToken)
+   at System.Data.EntityClient.EntityConnection.LoadEdmItemCollection(MetadataWorkspace workspace, MetadataArtifactLoader artifactLoader)
+   at System.Data.EntityClient.EntityConnection.GetMetadataWorkspace(Boolean initializeAllCollections)
+   at System.Data.Objects.ObjectContext.RetrieveMetadataWorkspaceFromConnection()
+   at System.Data.Objects.ObjectContext..ctor(EntityConnection connection, Boolean isConnectionConstructor)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at Benchmark.Model1Container..ctor() in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\Model1.Designer.cs:line 34
+   at Benchmark.DatabaseModule.LogAction(Job job, String action) in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\DatabaseModule.cs:line 10
+   at Benchmark.BenchmarkSystem.Submit(Job job) in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\BenchmarkSystem.cs:line 18
+   at BenchmarkTest.BenchmarkSystemTest.TestCancel() in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\BenchmarkTest\BenchmarkSystemTest.cs:line 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0803d516-b4b9-4d66-a9b6-af627ad39e15" testId="51c569f2-c5c7-a7db-6ab7-4c5a13cf904a" testName="TestSubmit" computerName="STORGAARD-PC" duration="00:00:00.0079749" startTime="2012-10-09T13:16:32.1277395+02:00" endTime="2012-10-09T13:16:32.1407402+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0803d516-b4b9-4d66-a9b6-af627ad39e15">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BenchmarkTest.BenchmarkSystemTest.TestSubmit threw exception: 
+System.Data.MetadataException: Schema specified is not valid. Errors: 
+Model1.csdl(3,4) : error 0019: The EntityContainer name must be unique. An EntityContainer with the name 'Model1Container' is already defined.
+Model1.csdl(6,4) : error 0019: Each type name in a schema must be unique. Type name 'Model1.Log' was already defined.</Message>
+          <StackTrace>    at System.Data.Metadata.Edm.EdmItemCollection.LoadItems(IEnumerable`1 xmlReaders, IEnumerable`1 sourceFilePaths, SchemaDataModelOption dataModelOption, DbProviderManifest providerManifest, ItemCollection itemCollection, Boolean throwOnError)
+   at System.Data.Metadata.Edm.EdmItemCollection.Init(IEnumerable`1 xmlReaders, IEnumerable`1 filePaths, Boolean throwOnError)
+   at System.Data.Metadata.Edm.EdmItemCollection..ctor(IEnumerable`1 xmlReaders, IEnumerable`1 filePaths)
+   at System.Data.Metadata.Edm.MetadataCache.EdmMetadataEntry.LoadEdmItemCollection(MetadataArtifactLoader loader)
+   at System.Data.Metadata.Edm.MetadataCache.EdmItemCollectionLoader.LoadItemCollection(EdmMetadataEntry entry)
+   at System.Data.Metadata.Edm.MetadataCache.LoadItemCollection[T](IItemCollectionLoader`1 itemCollectionLoader, T entry)
+   at System.Data.Metadata.Edm.MetadataCache.GetOrCreateEdmItemCollection(String cacheKey, MetadataArtifactLoader loader, Object&amp; entryToken)
+   at System.Data.EntityClient.EntityConnection.LoadEdmItemCollection(MetadataWorkspace workspace, MetadataArtifactLoader artifactLoader)
+   at System.Data.EntityClient.EntityConnection.GetMetadataWorkspace(Boolean initializeAllCollections)
+   at System.Data.Objects.ObjectContext.RetrieveMetadataWorkspaceFromConnection()
+   at System.Data.Objects.ObjectContext..ctor(EntityConnection connection, Boolean isConnectionConstructor)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at Benchmark.Model1Container..ctor() in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\Model1.Designer.cs:line 34
+   at Benchmark.DatabaseModule.LogAction(Job job, String action) in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\DatabaseModule.cs:line 10
+   at Benchmark.BenchmarkSystem.Submit(Job job) in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\BenchmarkSystem.cs:line 18
+   at BenchmarkTest.BenchmarkSystemTest.TestSubmit() in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\BenchmarkTest\BenchmarkSystemTest.cs:line 60
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2f948437-3c23-4afc-b3f7-8598c928dc80" testId="75ac6a0d-f1a6-2b4f-2070-9f01ded38f1b" testName="TestRemoveJob" computerName="STORGAARD-PC" duration="00:00:00.0043259" startTime="2012-10-09T13:16:32.1417403+02:00" endTime="2012-10-09T13:16:32.1517408+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f948437-3c23-4afc-b3f7-8598c928dc80">
+    </UnitTestResult>
+    <UnitTestResult executionId="8fb4cb93-219e-4d96-8cab-6501d62c46b0" testId="7cb48fb4-619f-7f82-6085-e5841b4b528c" testName="TestExecuteAll" computerName="STORGAARD-PC" duration="00:00:00.0058432" startTime="2012-10-09T13:16:32.1527409+02:00" endTime="2012-10-09T13:16:32.1637415+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8fb4cb93-219e-4d96-8cab-6501d62c46b0">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BenchmarkTest.BenchmarkSystemTest.TestExecuteAll threw exception: 
+System.Data.MetadataException: Schema specified is not valid. Errors: 
+Model1.csdl(3,4) : error 0019: The EntityContainer name must be unique. An EntityContainer with the name 'Model1Container' is already defined.
+Model1.csdl(6,4) : error 0019: Each type name in a schema must be unique. Type name 'Model1.Log' was already defined.</Message>
+          <StackTrace>    at System.Data.Metadata.Edm.EdmItemCollection.LoadItems(IEnumerable`1 xmlReaders, IEnumerable`1 sourceFilePaths, SchemaDataModelOption dataModelOption, DbProviderManifest providerManifest, ItemCollection itemCollection, Boolean throwOnError)
+   at System.Data.Metadata.Edm.EdmItemCollection.Init(IEnumerable`1 xmlReaders, IEnumerable`1 filePaths, Boolean throwOnError)
+   at System.Data.Metadata.Edm.EdmItemCollection..ctor(IEnumerable`1 xmlReaders, IEnumerable`1 filePaths)
+   at System.Data.Metadata.Edm.MetadataCache.EdmMetadataEntry.LoadEdmItemCollection(MetadataArtifactLoader loader)
+   at System.Data.Metadata.Edm.MetadataCache.EdmItemCollectionLoader.LoadItemCollection(EdmMetadataEntry entry)
+   at System.Data.Metadata.Edm.MetadataCache.LoadItemCollection[T](IItemCollectionLoader`1 itemCollectionLoader, T entry)
+   at System.Data.Metadata.Edm.MetadataCache.GetOrCreateEdmItemCollection(String cacheKey, MetadataArtifactLoader loader, Object&amp; entryToken)
+   at System.Data.EntityClient.EntityConnection.LoadEdmItemCollection(MetadataWorkspace workspace, MetadataArtifactLoader artifactLoader)
+   at System.Data.EntityClient.EntityConnection.GetMetadataWorkspace(Boolean initializeAllCollections)
+   at System.Data.Objects.ObjectContext.RetrieveMetadataWorkspaceFromConnection()
+   at System.Data.Objects.ObjectContext..ctor(EntityConnection connection, Boolean isConnectionConstructor)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at Benchmark.Model1Container..ctor() in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\Model1.Designer.cs:line 34
+   at Benchmark.DatabaseModule.LogAction(Job job, String action) in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\DatabaseModule.cs:line 10
+   at Benchmark.BenchmarkSystem.Submit(Job job) in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\Benchmark\BenchmarkSystem.cs:line 18
+   at BenchmarkTest.BenchmarkSystemTest.TestExecuteAll() in C:\Users\Storgaard\documents\visual studio 2010\Projects\Benchmark\BenchmarkTest\BenchmarkSystemTest.cs:line 99
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e20b3edd-803f-45e7-ab98-c6f73477047f" testId="9e394168-dfe8-459a-d3ea-9789da9a2096" testName="TestPopJob" computerName="STORGAARD-PC" duration="00:00:00.0044374" startTime="2012-10-09T13:16:32.1647416+02:00" endTime="2012-10-09T13:16:32.1747421+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e20b3edd-803f-45e7-ab98-c6f73477047f">
+    </UnitTestResult>
+    <UnitTestResult executionId="0519fca1-c8ec-4299-8977-765ebe1a52c4" testId="bf551a33-7359-47a9-ebf2-c3a151930df8" testName="TestJob" computerName="STORGAARD-PC" duration="00:00:00.0034315" startTime="2012-10-09T13:16:32.1757422+02:00" endTime="2012-10-09T13:16:32.1877429+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0519fca1-c8ec-4299-8977-765ebe1a52c4">
+    </UnitTestResult>
+    <UnitTestResult executionId="5e72ea4a-4218-4c63-a51f-7c346d0c17dd" testId="d2ff0831-dd7b-3ea1-ba81-650fd9435b59" testName="TestAddJob" computerName="STORGAARD-PC" duration="00:00:00.0025394" startTime="2012-10-09T13:16:32.1887430+02:00" endTime="2012-10-09T13:16:32.1967434+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e72ea4a-4218-4c63-a51f-7c346d0c17dd">
+    </UnitTestResult>
+  </Results>
+</TestRun>
