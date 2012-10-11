@@ -69,7 +69,7 @@ namespace Benchmarksystem {
         /// Get the job inserted first. Based on timestamp attribute in Job object.
         /// </summary>
         /// <returns>Job object</returns>
-        public Job PopJob(int freeCpus) {
+        public Job PopJob() {
             List<Queue<Job>> list = new List<Queue<Job>>();
             if (shortQ.Count > 0) list.Add(shortQ);
             if (longQ.Count > 0) list.Add(longQ);

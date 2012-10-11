@@ -33,15 +33,10 @@ namespace Benchmarksystem {
         /// <summary>
         /// Print a status including running and queued jobs.
         /// </summary>
-        public void Status() {
-            Console.WriteLine("Running jobs:");
-
-            Console.WriteLine("");
-            Job[] jobs = scheduler.GetJobs();
-            Console.WriteLine("Queued jobs:");
-            foreach (Job job in jobs) {
-                Console.WriteLine(job.id + ": " + job.cpus + ", " + job.runtime + ": " + job.state);
-            }
+        public List<Job> Status() {
+            List<Job> ret = new List<Job>(runningList);
+            ret.AddRange(scheduler.GetJobs());
+            return ret;
         }
 
         public void RunJob(Job job) {
@@ -71,15 +66,22 @@ namespace Benchmarksystem {
                         running.Enqueue(job);
                         runningList.Add(job);
                         cpus -= job.cpus;
+
                         Debug("running", job); // debug
                     } else {
                         try {
-                            Job job = scheduler.PopJob(cpus);
+                            Job job = scheduler.PopJob();
                             if (job.cpus <= cpus) {
                                 running.Enqueue(job);
                                 runningList.Add(job);
                                 cpus -= job.cpus;
                                 Debug("running", job); // debug
+                                Console.WriteLine(runningList.Count);
+                                //DEBUG CODE
+                                /*foreach (Job j in Status())
+                                {
+                                    Console.WriteLine(job.id + " (" + job.state + ")");
+                                }*/
                             } else {
                                 if (job.wait == 0) {
                                     scheduler.AddJob(job, true);
@@ -114,7 +116,7 @@ namespace Benchmarksystem {
         }
 
         public void Debug(String action, Job job) {
-            Console.WriteLine(String.Format("{0,10} ID:{1,3} Job:{2,2} Free:{3,2} Wait:{4}", action, job.id, job.cpus, cpus, job.wait));
+            //Console.WriteLine(String.Format("{0,10} ID:{1,3} Job:{2,2} Free:{3,2} Wait:{4}", action, job.id, job.cpus, cpus, job.wait));
         }
 
         static void Main(string[] args) {

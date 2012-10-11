@@ -7,7 +7,7 @@ using System.Data;
 namespace Benchmarksystem {
     public class DatabaseModule {
         public static void LogAction(Job job, String action) {
-            using (var dbContext = new Model1Container()) {
+            /*using (var dbContext = new Model1Container()) {
                 Log log = new Log();
                 log.Action = action;
                 log.JobId = job.id;
@@ -16,7 +16,7 @@ namespace Benchmarksystem {
 
                 dbContext.Logs.AddObject(log);
                 dbContext.SaveChanges();
-            }
+            }*/
         }
 
         public static String[] SelectAllUsers() {
