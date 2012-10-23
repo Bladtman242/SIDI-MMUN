@@ -1,0 +1,8 @@
+C:\Users\Storgaard\Documents\Visual Studio 2010\Projects\Benchmarksystem\BenchmarksystemTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Storgaard\Documents\Visual Studio 2010\Projects\Benchmarksystem\BenchmarksystemTest\bin\Debug\BenchmarksystemTest.dll
+C:\Users\Storgaard\Documents\Visual Studio 2010\Projects\Benchmarksystem\BenchmarksystemTest\bin\Debug\BenchmarksystemTest.pdb
+C:\Users\Storgaard\Documents\Visual Studio 2010\Projects\Benchmarksystem\BenchmarksystemTest\bin\Debug\Benchmarksystem.exe
+C:\Users\Storgaard\Documents\Visual Studio 2010\Projects\Benchmarksystem\BenchmarksystemTest\bin\Debug\Benchmarksystem.pdb
+C:\Users\Storgaard\Documents\Visual Studio 2010\Projects\Benchmarksystem\BenchmarksystemTest\obj\Debug\BenchmarksystemTest.dll
+C:\Users\Storgaard\Documents\Visual Studio 2010\Projects\Benchmarksystem\BenchmarksystemTest\obj\Debug\BenchmarksystemTest.pdb
+C:\Users\Storgaard\Documents\Visual Studio 2010\Projects\Benchmarksystem\BenchmarksystemTest\bin\Debug\BenchmarksystemTest.dll.config
