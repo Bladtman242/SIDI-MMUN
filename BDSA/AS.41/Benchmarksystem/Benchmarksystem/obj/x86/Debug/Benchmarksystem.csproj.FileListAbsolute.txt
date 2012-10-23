@@ -1,6 +1,0 @@
-c:\users\mex\documents\visual studio 2010\Projects\Benchmarksystem\Benchmarksystem\bin\Debug\Benchmarksystem.exe.config
-c:\users\mex\documents\visual studio 2010\Projects\Benchmarksystem\Benchmarksystem\bin\Debug\Benchmarksystem.exe
-c:\users\mex\documents\visual studio 2010\Projects\Benchmarksystem\Benchmarksystem\bin\Debug\Benchmarksystem.pdb
-c:\users\mex\documents\visual studio 2010\Projects\Benchmarksystem\Benchmarksystem\obj\x86\Debug\ResolveAssemblyReference.cache
-c:\users\mex\documents\visual studio 2010\Projects\Benchmarksystem\Benchmarksystem\obj\x86\Debug\Benchmarksystem.exe
-c:\users\mex\documents\visual studio 2010\Projects\Benchmarksystem\Benchmarksystem\obj\x86\Debug\Benchmarksystem.pdb
