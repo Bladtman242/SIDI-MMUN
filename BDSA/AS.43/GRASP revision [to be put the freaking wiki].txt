@@ -1,0 +1,40 @@
+Creator 
+	We don't have a full "chain of creation"
+	So far we have considered only parts of the system
+	(for example fig 3 shows that "the user" creates an event)
+	but not gone into detail concerning actual object creation.
+	For this reason, it seems our diagrams do not adhere the creator principle.
+	Creation is unclear concerning:
+		-User
+		-Group
+		-Calendar
+	It is clear that an event is created trough some kind of GUI interaction,
+	but not which objects are responsible.
+	Likewise the Store and GUI must be created somewhere, but it seems logical to make theese as part of the system startup (mvc, anyone?)
+	
+		
+
+Information Expert – or just ‘Expert’
+	Experts are a bit better defined.
+	
+	-A User object is knows user info - such as name, employment status (Generel Manager or not?).
+	It represents a user, and can as such be considered as infromation used elsewhere, rather than seen as containing information.
+
+	-A Group object knows all its member users (or member groups) and its manager(s).
+	it contains the group name aswell, and probably a member count, but this getting a little implementation bound.
+	It probably goes that any group must know all groups that it is in. Though this is not currently reflected in the diagrams
+
+	Currently, it is unclear whether Groups are able to present their calendars, or whether another object must ask the store for them events to create them.
+	Either way, the group knows it's own id, so it would be able to ask the store, or provide the id for another object to ask the store for the relevant events.
+	It is not a matter of great importance.
+
+	-Calendars are a volatile but essential entity.
+	They are the only objects that knows events in a relevant format, yet that format is arbitrarily defined during execution.
+	They are used to answer questions such as "what events does [group name] have in [period]".
+	This question is more complex than it sounds. As all users are considered groups, and groups can contain groups, this will include events from groups the group/user is a member of, and groups that they are members of.
+	
+	
+
+Low Coupling
+Controller
+High Cohesion
