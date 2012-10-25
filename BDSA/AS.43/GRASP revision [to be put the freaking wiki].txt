@@ -10,9 +10,8 @@ Creator
 		-Calendar
 	It is clear that an event is created trough some kind of GUI interaction,
 	but not which objects are responsible.
-	Likewise the Store and GUI must be created somewhere, but it seems logical to make theese as part of the system startup (mvc, anyone?)
-	
-		
+	Likewise the Store and GUI must be created somewhere, but it seems 
+	logical to make theese as part of the system startup (mvc, anyone?)
 
 Information Expert or just Expert
 	Experts are a bit better defined.
@@ -43,6 +42,36 @@ Information Expert or just Expert
 	groups the events concern, but it is not essential.
 
 Low Coupling
+	The system seems quite uncoupled, except perchance the connection
+	between User and Store (user could be represented through the group
+	entity, but it complicates the 'mental model' about user specific data.).		
+	A cleaner model could be using the "composite" design pattern with Group and User.
 	
+		-The calendar uses only events, and perhaps the store to
+		retrieve them (see the section on Experts). 
+		-Events uses its atendees (groups, not users), and maybe the
+		store to save themselves.
+		-Groups uses their users, and maybe the store.
+		-Users use only themselves, and perhaps the store.
+		-The store is coupled to almost all other entities.
+		this is necessary, and can be eased by eg. using interfaces or
+		reflection (entity framwork) for saving entities.
+
 Controller
+	Control is a gaping hole in the current design.
+	This problem is proabably do to the lack of focus on a user interface,
+	which would demand focus on controll.
+	It seems the MVC pattern might be clear-cut for this application, so
+	perhaps the sollution is to add an entity with the specific purpose of
+	controlling.
+
 High Cohesion
+	This system is failry small, and its primary job is ordering,
+	displaying, and saving data. Therefore it seems almost ridiculous to
+	talk about cohesion.
+	The most interresting part of the system, cohesion wise, is probably the
+	Calendar entity. It is an utterly artificial class, but it will probably
+	be responsible for ordering the events.
+	Though it could be argued that, as different UIs may have different
+	goals, ordering events should be job of the UI.
+
