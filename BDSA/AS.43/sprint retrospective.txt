@@ -1,0 +1,10 @@
+As we didn't actually _do_ a sprint, we here include a small explanation of what
+we _would_ have done in a retrospective, rather than a written example.
+
+The sprint retrospective is a (physical sit-down together) reflection on the
+processes in the sprint.
+It would probably reflect why we didn't finish all the tasks for the sprint, but
+it is presumably something that happens  a lot, and as such not a cause for big
+concern.
+The goal is to end with up with a list (across developer teams) with processes
+that worked and processes to be improved. Including changes to be made.

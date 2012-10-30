@@ -1,0 +1,5 @@
+An implementation is done when it has been:
+implemented (duh)
+successfully made it through the test suite
+(potentially revised and tested again, and again, and...)
+it is customer approved and ready for the production environment
